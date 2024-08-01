@@ -1,0 +1,21 @@
+// Tailwind
+@import "tailwind/__tailwind-dir";
+
+// Vendors
+@import "vendors/__vendor-dir";
+
+body {
+    margin: 0px;
+    overflow: none;
+}
+
+.app-container {
+    min-width: 100%;
+    min-height: 100vh;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
